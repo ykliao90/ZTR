@@ -12,7 +12,7 @@ plot(x,corry)
 % corry_ = smooth(corry,5);
 % plot(x, corry_)
 %%
-figure
+figure(1)
 plot(x,y)
 title('select the points')
 [n,p] = ginput;
